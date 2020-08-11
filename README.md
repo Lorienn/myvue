@@ -31,32 +31,31 @@ npm i	// install necessary dependencies
 
 #### 项目结构
 
-src	根目录
+- src	根目录
 
-|- index.html	项目`HTML`模板
+  - index.html	项目`HTML`模板
 
-|- css	存放`CSS`文件（支持CSS、Sass）
+  - css	存放`CSS`文件（支持CSS、Sass）
 
-|- img	存放`图片`文件（支持jpg、png、svg、gif）
+  - img	存放`图片`文件（支持jpg、png、svg、gif）
 
-|- js	存放`JavaScript`文件
-
-​	|- router
-
-​		|- index.js	`Vue Router`配置文件
-
-​	|- store
-
-​		|- index.js	`Vuex`配置文件
-
-​	|- components	存放普通组件
-
-​	|- views	存放页面级组件
-
-​	|- index.vue	根组件
-
-​	|- index.js	入口文件
-
+  - js	存放`JavaScript`文件
+  
+    - router
+    
+      - index.js	`Vue Router`配置文件
+      
+    - store
+    
+      - index.js	`Vuex`配置文件
+      
+    - components	存放普通组件
+    
+	- views	存放页面级组件
+	
+	- index.vue	根组件
+	
+	- index.js	入口文件
 
 
 #### 编译/构建
